@@ -1,0 +1,32 @@
+PODS:
+  - Kingfisher (7.11.0)
+  - Kingfisher/Core (5.15.8)
+  - Kingfisher/SwiftUI (5.15.8):
+    - Kingfisher/Core
+  - pop (1.0.12)
+  - PopBounceButton (1.2.2):
+    - pop (~> 1.0)
+  - Shuffle-iOS (0.5.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - Kingfisher/SwiftUI
+  - PopBounceButton
+  - Shuffle-iOS
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - pop
+    - PopBounceButton
+    - Shuffle-iOS
+
+SPEC CHECKSUMS:
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PopBounceButton: 34105a012678222f058f8d2621672724a3d5c9fb
+  Shuffle-iOS: ff33658fb1e5eebd6a4724c156473e63754be9cb
+
+PODFILE CHECKSUM: 27c6450cd842e255b3cbfaad845f6593497d40f7
+
+COCOAPODS: 1.15.2

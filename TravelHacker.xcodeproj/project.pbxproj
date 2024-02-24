@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D109004D7FE8030CACD66CFC /* Pods_TravelHacker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DF5F2C3D1613B6B499AD0A /* Pods_TravelHacker.framework */; };
+		EB10547B2B8AA6F1001B5741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB10547A2B8AA6F1001B5741 /* Images.xcassets */; };
+		EB10547D2B8AAF2C001B5741 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB10547C2B8AAF2C001B5741 /* MapViewController.swift */; };
+		EB1054802B8AB540001B5741 /* MapItemPicker in Frameworks */ = {isa = PBXBuildFile; productRef = EB10547F2B8AB540001B5741 /* MapItemPicker */; };
+		EB1054832B8ABAA1001B5741 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1054822B8ABAA1001B5741 /* SceneDelegate.swift */; };
+		EBAD49BA2B8A9F920065E054 /* ButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD49B92B8A9F920065E054 /* ButtonStackView.swift */; };
+		EBAD49BC2B8A9F970065E054 /* TinderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD49BB2B8A9F970065E054 /* TinderButton.swift */; };
+		EBAD49BE2B8A9F990065E054 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD49BD2B8A9F990065E054 /* UIView+Extensions.swift */; };
+		EBAD49C32B8A9F9F0065E054 /* TinderCardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD49C22B8A9F9F0065E054 /* TinderCardOverlay.swift */; };
+		EBAD49C42B8A9F9F0065E054 /* TinderCardFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD49C12B8A9F9F0065E054 /* TinderCardFooterView.swift */; };
+		EBAD49C52B8A9F9F0065E054 /* TinderCardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD49BF2B8A9F9F0065E054 /* TinderCardContentView.swift */; };
+		EBAD49C62B8A9F9F0065E054 /* TinderCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD49C02B8A9F9F0065E054 /* TinderCardModel.swift */; };
+		EBF786B52B8A8A75001122B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF786B42B8A8A75001122B8 /* AppDelegate.swift */; };
+		EBF786B92B8A8A75001122B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF786B82B8A8A75001122B8 /* ViewController.swift */; };
+		EBF786BC2B8A8A75001122B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF786BA2B8A8A75001122B8 /* Main.storyboard */; };
+		EBF786BE2B8A8A76001122B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF786BD2B8A8A76001122B8 /* Assets.xcassets */; };
+		EBF786C12B8A8A76001122B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF786BF2B8A8A76001122B8 /* LaunchScreen.storyboard */; };
+		EBF786CC2B8A8CAC001122B8 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = EBF786CB2B8A8CAC001122B8 /* Eureka */; };
+		EBF786CE2B8A9440001122B8 /* TinderExample in Resources */ = {isa = PBXBuildFile; fileRef = EBF786CD2B8A9440001122B8 /* TinderExample */; };
+		EBF786D02B8A95E3001122B8 /* TinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF786CF2B8A95E3001122B8 /* TinderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25738A3E2405D4A7D36D357D /* Pods-TravelHacker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHacker.release.xcconfig"; path = "Target Support Files/Pods-TravelHacker/Pods-TravelHacker.release.xcconfig"; sourceTree = "<group>"; };
+		B1DF5F2C3D1613B6B499AD0A /* Pods_TravelHacker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelHacker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5DA97B7617363909D6C65A /* Pods-TravelHacker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHacker.debug.xcconfig"; path = "Target Support Files/Pods-TravelHacker/Pods-TravelHacker.debug.xcconfig"; sourceTree = "<group>"; };
+		EB10547A2B8AA6F1001B5741 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB10547C2B8AAF2C001B5741 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EB1054822B8ABAA1001B5741 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBAD49B92B8A9F920065E054 /* ButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStackView.swift; sourceTree = "<group>"; };
+		EBAD49BB2B8A9F970065E054 /* TinderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderButton.swift; sourceTree = "<group>"; };
+		EBAD49BD2B8A9F990065E054 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		EBAD49BF2B8A9F9F0065E054 /* TinderCardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardContentView.swift; sourceTree = "<group>"; };
+		EBAD49C02B8A9F9F0065E054 /* TinderCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardModel.swift; sourceTree = "<group>"; };
+		EBAD49C12B8A9F9F0065E054 /* TinderCardFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardFooterView.swift; sourceTree = "<group>"; };
+		EBAD49C22B8A9F9F0065E054 /* TinderCardOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardOverlay.swift; sourceTree = "<group>"; };
+		EBF786B12B8A8A75001122B8 /* TravelHacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelHacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF786B42B8A8A75001122B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF786B82B8A8A75001122B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBF786BB2B8A8A75001122B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF786BD2B8A8A76001122B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF786C02B8A8A76001122B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF786C22B8A8A76001122B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF786CD2B8A9440001122B8 /* TinderExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TinderExample; sourceTree = "<group>"; };
+		EBF786CF2B8A95E3001122B8 /* TinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF786AE2B8A8A75001122B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF786CC2B8A8CAC001122B8 /* Eureka in Frameworks */,
+				D109004D7FE8030CACD66CFC /* Pods_TravelHacker.framework in Frameworks */,
+				EB1054802B8AB540001B5741 /* MapItemPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C03845905884A3C07BDDEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB5DA97B7617363909D6C65A /* Pods-TravelHacker.debug.xcconfig */,
+				25738A3E2405D4A7D36D357D /* Pods-TravelHacker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E87EF3D1E7E62DE75F643E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF5F2C3D1613B6B499AD0A /* Pods_TravelHacker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF786A82B8A8A75001122B8 = {
+			isa = PBXGroup;
+			children = (
+				EBF786B32B8A8A75001122B8 /* TravelHacker */,
+				EBF786B22B8A8A75001122B8 /* Products */,
+				35C03845905884A3C07BDDEC /* Pods */,
+				E87EF3D1E7E62DE75F643E2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF786B22B8A8A75001122B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF786B12B8A8A75001122B8 /* TravelHacker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF786B32B8A8A75001122B8 /* TravelHacker */ = {
+			isa = PBXGroup;
+			children = (
+				EB1054822B8ABAA1001B5741 /* SceneDelegate.swift */,
+				EBF786B42B8A8A75001122B8 /* AppDelegate.swift */,
+				EBF786B82B8A8A75001122B8 /* ViewController.swift */,
+				EB10547C2B8AAF2C001B5741 /* MapViewController.swift */,
+				EBF786CF2B8A95E3001122B8 /* TinderViewController.swift */,
+				EBAD49B92B8A9F920065E054 /* ButtonStackView.swift */,
+				EBAD49BB2B8A9F970065E054 /* TinderButton.swift */,
+				EBAD49BD2B8A9F990065E054 /* UIView+Extensions.swift */,
+				EBAD49BF2B8A9F9F0065E054 /* TinderCardContentView.swift */,
+				EBAD49C12B8A9F9F0065E054 /* TinderCardFooterView.swift */,
+				EBAD49C02B8A9F9F0065E054 /* TinderCardModel.swift */,
+				EBAD49C22B8A9F9F0065E054 /* TinderCardOverlay.swift */,
+				EB10547A2B8AA6F1001B5741 /* Images.xcassets */,
+				EBF786CD2B8A9440001122B8 /* TinderExample */,
+				EBF786BA2B8A8A75001122B8 /* Main.storyboard */,
+				EBF786BD2B8A8A76001122B8 /* Assets.xcassets */,
+				EBF786BF2B8A8A76001122B8 /* LaunchScreen.storyboard */,
+				EBF786C22B8A8A76001122B8 /* Info.plist */,
+			);
+			path = TravelHacker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF786B02B8A8A75001122B8 /* TravelHacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF786C52B8A8A76001122B8 /* Build configuration list for PBXNativeTarget "TravelHacker" */;
+			buildPhases = (
+				20E96FDAB83895BD09CF845F /* [CP] Check Pods Manifest.lock */,
+				EBF786AD2B8A8A75001122B8 /* Sources */,
+				EBF786AE2B8A8A75001122B8 /* Frameworks */,
+				EBF786AF2B8A8A75001122B8 /* Resources */,
+				352EC7533EC75A59ABA9A7B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelHacker;
+			packageProductDependencies = (
+				EBF786CB2B8A8CAC001122B8 /* Eureka */,
+				EB10547F2B8AB540001B5741 /* MapItemPicker */,
+			);
+			productName = TravelHacker;
+			productReference = EBF786B12B8A8A75001122B8 /* TravelHacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF786A92B8A8A75001122B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EBF786B02B8A8A75001122B8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = EBF786AC2B8A8A75001122B8 /* Build configuration list for PBXProject "TravelHacker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF786A82B8A8A75001122B8;
+			packageReferences = (
+				EBF786CA2B8A8CAC001122B8 /* XCRemoteSwiftPackageReference "Eureka" */,
+				EB10547E2B8AB540001B5741 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */,
+			);
+			productRefGroup = EBF786B22B8A8A75001122B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF786B02B8A8A75001122B8 /* TravelHacker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF786AF2B8A8A75001122B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF786C12B8A8A76001122B8 /* LaunchScreen.storyboard in Resources */,
+				EB10547B2B8AA6F1001B5741 /* Images.xcassets in Resources */,
+				EBF786BE2B8A8A76001122B8 /* Assets.xcassets in Resources */,
+				EBF786CE2B8A9440001122B8 /* TinderExample in Resources */,
+				EBF786BC2B8A8A75001122B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E96FDAB83895BD09CF845F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelHacker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		352EC7533EC75A59ABA9A7B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelHacker/Pods-TravelHacker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelHacker/Pods-TravelHacker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelHacker/Pods-TravelHacker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF786AD2B8A8A75001122B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAD49BE2B8A9F990065E054 /* UIView+Extensions.swift in Sources */,
+				EBAD49C42B8A9F9F0065E054 /* TinderCardFooterView.swift in Sources */,
+				EBF786B92B8A8A75001122B8 /* ViewController.swift in Sources */,
+				EBAD49BC2B8A9F970065E054 /* TinderButton.swift in Sources */,
+				EBAD49C52B8A9F9F0065E054 /* TinderCardContentView.swift in Sources */,
+				EBAD49BA2B8A9F920065E054 /* ButtonStackView.swift in Sources */,
+				EBAD49C62B8A9F9F0065E054 /* TinderCardModel.swift in Sources */,
+				EB10547D2B8AAF2C001B5741 /* MapViewController.swift in Sources */,
+				EBAD49C32B8A9F9F0065E054 /* TinderCardOverlay.swift in Sources */,
+				EBF786B52B8A8A75001122B8 /* AppDelegate.swift in Sources */,
+				EBF786D02B8A95E3001122B8 /* TinderViewController.swift in Sources */,
+				EB1054832B8ABAA1001B5741 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBF786BA2B8A8A75001122B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF786BB2B8A8A75001122B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF786BF2B8A8A76001122B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF786C02B8A8A76001122B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF786C32B8A8A76001122B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF786C42B8A8A76001122B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF786C62B8A8A76001122B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5DA97B7617363909D6C65A /* Pods-TravelHacker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92PP8M48XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelHacker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RubbishTestApp.com.TravelHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF786C72B8A8A76001122B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25738A3E2405D4A7D36D357D /* Pods-TravelHacker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92PP8M48XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelHacker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RubbishTestApp.com.TravelHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF786AC2B8A8A75001122B8 /* Build configuration list for PBXProject "TravelHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF786C32B8A8A76001122B8 /* Debug */,
+				EBF786C42B8A8A76001122B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF786C52B8A8A76001122B8 /* Build configuration list for PBXNativeTarget "TravelHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF786C62B8A8A76001122B8 /* Debug */,
+				EBF786C72B8A8A76001122B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB10547E2B8AB540001B5741 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-map-item-picker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		EBF786CA2B8A8CAC001122B8 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB10547F2B8AB540001B5741 /* MapItemPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB10547E2B8AB540001B5741 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */;
+			productName = MapItemPicker;
+		};
+		EBF786CB2B8A8CAC001122B8 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBF786CA2B8A8CAC001122B8 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EBF786A92B8A8A75001122B8 /* Project object */;
+}

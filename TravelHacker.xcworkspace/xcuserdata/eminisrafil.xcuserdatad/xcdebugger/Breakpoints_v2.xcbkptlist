@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "24FB71EC-1265-4AE1-87C3-22F2A2D50668"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA8B0773-1560-4517-88F8-4BA8D7AFD672"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHacker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "performSearch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42FE0671-CC8F-42DB-A55B-69D4B1F273DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHacker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "performSearch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42FE0671-CC8F-42DB-A55B-69D4B1F273DC - 77c88cafe2bfde83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.performSearch() -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "42FE0671-CC8F-42DB-A55B-69D4B1F273DC - 77c88cafe2bfdc93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.performSearch() -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86E35667-3CBA-46AB-9E65-E3259A2FD762"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHacker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "didTapOnPhotoStory(photoStory:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86E35667-3CBA-46AB-9E65-E3259A2FD762 - 9805e6850ec3480e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.updateSelectedItem(_: TravelHacker.SearchResult, isSelected: Swift.Bool) -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "86E35667-3CBA-46AB-9E65-E3259A2FD762 - e7955a7e185c0d67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.didTapOnPhotoStory(photoStory: TravelHacker.SearchResult) -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "86E35667-3CBA-46AB-9E65-E3259A2FD762 - e7955a7e185c0d39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.didTapOnPhotoStory(photoStory: TravelHacker.SearchResult) -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "244"
+                  endingLineNumber = "244"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "415439BC-760B-4DE3-A2EC-525A657F511D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHacker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "performSearch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CB6E5FF-D54D-46D6-A582-47475E25B38C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHacker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "performSearch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7CB6E5FF-D54D-46D6-A582-47475E25B38C - 77c88cafe2bfd3cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.performSearch() -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "7CB6E5FF-D54D-46D6-A582-47475E25B38C - c76f268ac344ad05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TravelHacker.ViewController.performSearch() -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB4991F5-ED90-4BC1-AE0A-38B0F356A8E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHacker/TinderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "didSwipeAllCards(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BAB6D5F-BF72-43BF-9ED4-33A89E81E25D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHacker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "showResultsOnMap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BAB6D5F-BF72-43BF-9ED4-33A89E81E25D - eaaa6c4336c1ccd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in TravelHacker.ViewController.tinderViewControllerDidFinish(TravelHacker.TinderViewController) -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "8BAB6D5F-BF72-43BF-9ED4-33A89E81E25D - 3fcd69dc940a196f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.showResultsOnMap(Swift.Array&lt;TravelHacker.SearchResult&gt;) -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "8BAB6D5F-BF72-43BF-9ED4-33A89E81E25D - 3fcd69dc940a16ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHacker.ViewController.showResultsOnMap(Swift.Array&lt;TravelHacker.SearchResult&gt;) -&gt; ()"
+                  moduleName = "TravelHacker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminisrafil/Desktop/x/TravelHacker/TravelHacker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "254"
+                  endingLineNumber = "254"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
